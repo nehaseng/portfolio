@@ -12,11 +12,5 @@ It’s a growing collection of my work, my progress, and my passion for understa
 
 Welcome to my learning journey—one project at a time.
 
-
-# Welcome to My Portfolio
-
-Hi, I’m Neha!  
-This page documents my projects, case studies, and learnings in Data Science & ML.
-
 [View My Projects](/posts/)
 
