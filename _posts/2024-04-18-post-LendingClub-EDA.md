@@ -1,4 +1,3 @@
-
 ---
 title: "Credit Risk Analysis: Exploring What Leads to Loan Defaults"
 date: 2024-04-18T15:34:30-04:00
@@ -7,7 +6,7 @@ categories:
 tags:
   - EDA
   - Case study
-  link: https://github.com/nehaseng/LendingClubCaseStudy
+link: https://github.com/nehaseng/LendingClubCaseStudy
 ---
 
 
