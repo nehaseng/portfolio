@@ -5,7 +5,6 @@ categories:
   - Post
 tags:
   - EDA
-  - Case study
 ---
 
 

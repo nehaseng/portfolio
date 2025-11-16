@@ -12,5 +12,5 @@ It’s a growing collection of my work, my progress, and my passion for understa
 
 Welcome to my learning journey—one project at a time.
 
-[View My Projects](/posts/)
+[View My Projects](/posts)
 
