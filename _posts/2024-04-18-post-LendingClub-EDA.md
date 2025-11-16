@@ -1,5 +1,5 @@
 ---
-title: "Credit Risk Analysis: Exploring What Leads to Loan Defaults"
+title: "Case Study:Exploring What Leads to Loan Defaults"
 date: 2024-04-18T15:34:30-04:00
 categories:
   - Post
