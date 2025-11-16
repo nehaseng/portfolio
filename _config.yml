@@ -20,7 +20,7 @@ email: nehaseng19@gmail.com
 description: Here I share my Projects I am building on my journey to Machine Learning.
 twitter_username: username
 github_username: nehaseng
-minimal_mistakes_skin: contrast
+minimal_mistakes_skin: air
 search: true
 
 # Build settings
@@ -95,7 +95,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
+      read_time: true
       comments: false
       share: true
       related: true
