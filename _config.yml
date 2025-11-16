@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Neha Sengupta"
   avatar : "/assets/images/Neha-Sengupta.jpeg"
-  bio    : "Here I share my Projects I am building on my journey to Machine Learning"
+  bio    : "Here I share the Projects I build on my journey to Machine Learning."
   location : "Bangalore, India"
   links:
     # - label: "Website"
