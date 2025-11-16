@@ -7,7 +7,6 @@ tags:
   - EDA
 ---
 
-
 Here is a case study for **Credit Risk Analysis** where I explore what leads to Loan Defaults.
 When a company receives a loan application,the company has to make a decision for loan approval based on the applicant’s profile. 
 Two types of risks are associated with the bank’s decision:
