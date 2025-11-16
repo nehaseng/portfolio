@@ -6,7 +6,6 @@ categories:
 tags:
   - EDA
   - Case study
-link: https://github.com/nehaseng/LendingClubCaseStudy
 ---
 
 
