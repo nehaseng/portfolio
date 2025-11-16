@@ -1,5 +1,5 @@
 ---
-title: "Decoding Borrower Behavior-A case study"
+title: "Decoding Borrower Behavior"
 date: 2024-04-18T15:34:30-04:00
 categories:
   - Post
@@ -8,6 +8,7 @@ tags:
 ---
 
 Exploratory data analysis or `EDA` is the foundation of every Data Science and Machine Learning project because it helps you deeply understand the data before building any model. Through EDA, you uncover patterns, detect anomalies, identify missing or noisy data, and validate assumptions. This `early insight` shapes the entire workflow—from choosing the right features and algorithms to defining preprocessing steps—ultimately ensuring the model is built on clean, meaningful, and  `well-understood data`.  
+
 ``` Without EDA, even the most advanced ML techniques can fail due to hidden issues in the dataset.```
 
 Here is a case study for **Credit Risk Analysis** where I use EDA to explore what leads to Loan Defaults.
@@ -68,17 +69,20 @@ The data used for this exercise is stored in `Loan.csv` and it is available in t
 
 ### RESULTS ###
 Based on the analysis we were able to indentify some `core risk indicators` which determined Loan approvals
+
 ***Risky Consumer attributes:***
 1. `Annual income`: Annual income in the ranges of 35k to 60k saw higher defaults.
 2. `Loan to income ratio`: Borrowers with high loan to income ratio tend to default more as payback power is less.
 3. `Home ownership`: Borrowers who had rented accommodation or a mortgage collectively had higher default rates.
 4. `State`: Borrowers from large urban states were prone to defaulting.
+
 ***Risky Loan attributes:***
 1. `Loan amount`: Higher the loan amount, higher the chances of default.
 2. `Rate of interest`: Interest rate of 13.5% and above lead to higher defaults.
 3. `Term`: A 60-month loan tenure was riskier than 36 months
 4. `EMI`: Higher EMIs lead to higher chances of defaulting
 5. `Verification Status`: Unexpectedly, borrowers with income source as "verified" defaulted more compared to the ones  without verification. 
+
   *`This indicated that the verification procedure followed by the company was faulty.`*
 
 To understand and visualize how these insights were drawn, please visit :
