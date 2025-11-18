@@ -1,10 +1,15 @@
 ---
 title: "📨 Building a Spam–Ham Classifier Using NLP"
 description: "A beginner-friendly walkthrough of how I built a machine learning model that classifies SMS messages as spam or ham using Python, NLP, and TF-IDF."
-date: 2024-04-28T15:34:30-04:00
+date: 2023-08-02T15:34:30-04:00
 categories:
   - Post
-tags: [machine-learning, nlp, python, spam-classifier, beginner-friendly]
+tags:
+  - nlp
+  - python
+  - spam-classifier
+  - beginner
+  - machine -learning
 ---
 
 # 📨 Building a Spam–Ham Classifier Using NLP  
