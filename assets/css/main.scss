@@ -1,0 +1,65 @@
+
+@import "minimal-mistakes"; // ensures theme styles load first — keep this line
+
+/* ----- Your custom styles start here ----- */
+
+/* ----- Custom boxes ----- */
+
+.info-box,
+.tip-box,
+.example-box,
+.conclusion-box {
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  border-left: 5px solid #5e81ac;
+  background: #f8f9fb;
+  font-size: 0.95rem;
+}
+
+.tip-box {
+  border-left-color: #81a1c1;
+  background: #f1f7ff;
+}
+
+.example-box {
+  border-left-color: #a3be8c;
+  background: #f4fff4;
+}
+
+.conclusion-box {
+  border-left-color: #ebcb8b;
+  background: #fffbf0;
+}
+
+/* ----- Diagrams ----- */
+.diagram-box {
+  padding: 1rem;
+  background: #fafafa;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.08);
+  margin: 2rem 0;
+}
+
+/* Table of contents list */
+.toc-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 0.97rem;
+}
+
+.toc-list li {
+  margin-bottom: 0.4rem;
+}
+
+/* Intro section */
+.post-intro {
+  background: #f1f5fb;
+  padding: 1.25rem;
+  border-left: 4px solid #4c78c5;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ----- End of custom styles ----- */
