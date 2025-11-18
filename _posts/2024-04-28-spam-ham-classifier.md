@@ -4,7 +4,7 @@ description: "A beginner-friendly walkthrough of how I built a machine learning 
 date: 2024-04-28T15:34:30-04:00
 categories:
   - Post
-tags:tags: [machine-learning, nlp, python, spam-classifier, beginner-friendly]
+tags: [machine-learning, nlp, python, spam-classifier, beginner-friendly]
 ---
 
 # 📨 Building a Spam–Ham Classifier Using NLP  
