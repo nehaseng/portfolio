@@ -2,7 +2,7 @@
 title: "📨 Building a Spam–Ham Classifier Using NLP"
 date: 2023-08-02T15:34:30-04:00
 categories:
-  - Post
+  - Machine Learning
 tags:
   - nlp
   - python
@@ -28,6 +28,7 @@ We’ll go step by step:
 Let’s begin.
 
 ---
+
 ## 📘 Table of Contents
 1. [Dataset Overview](#dataset-overview)  
 2. [Preprocessing Pipeline](#preprocessing-pipeline)  
@@ -36,6 +37,7 @@ Let’s begin.
 5. [Model Evaluation](#model-evaluation)  
 6. [Prediction on New Messages](#prediction-on-new-messages)  
 7. [Final Thoughts](#final-thoughts)
+
 ---
 ## ✉️ Dataset Overview 
 {: #dataset-overview }
@@ -124,7 +126,9 @@ tfidf = TfidfVectorizer(max_features=5000)
 X = tfidf.fit_transform(df['clean_msg']).toarray()
 y = df['label'].map({'ham':0, 'spam':1})
 ```
+
 Now every SMS message becomes a `numerical vector` or simply put a row of numbers representing word importance.
+
 This is the step where text finally becomes machine-learnable.
 
 ## Model Building {#model-building}
@@ -139,12 +143,14 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 model = MultinomialNB()
 model.fit(X_train, y_train)
 ```
+
 It learns classic spam patterns like:
 * “win”, “free”, “urgent”
 * lots of uppercase
 * promotional tone
 
 ## 📈 Model Evaluation {#model-evaluation}
+
 ```python
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
@@ -154,6 +160,7 @@ accuracy_score(y_test, y_pred)
 print(confusion_matrix(y_test, y_pred))
 print(classification_report(y_test, y_pred))
 ```
+
 You’ll usually get **95%+ accuracy** —text classification works surprisingly well even with simple models!
 
 A confusion matrix helps check if the model mistakes spam for ham (dangerous) or the other way around (annoying but safe).
