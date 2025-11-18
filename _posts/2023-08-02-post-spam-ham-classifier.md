@@ -1,9 +1,8 @@
 ---
-layout: post
 title: "📨 Building a Spam–Ham Classifier Using NLP"
 date: 2023-08-02T15:34:30-04:00
 categories:
-  - Machine Learning
+  - Post
 tags:
   - nlp
   - python
@@ -178,8 +177,8 @@ model.predict(tfidf.transform([clean_text("Are we meeting today?")]))
 Output: [0] → HAM
 ```
 ## Final Thoughts {#final-thoughts}
-This project might be considered `“classical ML”`, but it teaches the core concepts behind almost every NLP system today:
 
+This project might be considered `“classical ML”`, but it teaches the core concepts behind almost every NLP system today:
 - cleaning text
 - representing text numerically
 - training a model
